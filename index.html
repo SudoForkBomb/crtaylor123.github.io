@@ -1,33 +1,51 @@
 <!DOCTYPE html>
-<head>
-  <title>Christopher Taylor</title>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Welcome to my portfolio site.</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  </head>
+
   <style>
     body {
       text-align: center;
-      background: url("IMG_20140907_184523863_HDR.jpg");
+
+      background: black;
       background-size: cover;
       background-position: center top;
-      color: white;
-      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      color: black;
+      text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
       font-family: "Droid Sans";
     }
     p {
       font-size: 22px;
     }
-    input {
-      border: 0;
-      padding: 10px;
-      font-size: 18px;
-    }
-    input[type="submit"] {
-      background: red;
-      color: white;
-    }
   </style>
-</head>
+
 <body>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
   <!-- <img src="/assets/anna.png">  -->
-  <p>Hello, World! Thank you for stopping by to check out my webpage. I'm in the process of updating so please stop by again soon!</p>
-  <!-- <input type="email" placeholder="Your email"> -->
-  <!-- <input type="submit"> -->
+
+  <div class="container">
+    <div class="jumbotron">
+
+      <div class="row">
+        <div class="col-xs-12 text-center">
+        <a href="#"><img class="thumbnail col-xs-12 text-center" src="IMG_20140907_184523863_HDR.jpg"></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <p>Hello, my name is Chris. Welcome to my portfolio page! This is currently a work in progress as I make my way through FreeCodeCamp and learn web development. Please make sure to check back periodically to learn more about me and my progress.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </body>

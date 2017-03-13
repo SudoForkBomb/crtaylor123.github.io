@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -21,13 +20,13 @@
       font-family: "Droid Sans";
     }
     .test {
-      background: white;
+      background: black;
+      color: white;
       width=100%
       height: 200px;
+      vertical-align: middle;
     }
-    h1 {
-      font-size: 48px;
-    }
+
     p {
       font-size: 16px;
     }
@@ -55,17 +54,17 @@
 </div>
 <div class="test">
   <div class="row">
-    <div class="col-sm-3 col-sm-offset-3 text-left">
+    <div class="col-sm-3 col-sm-offset-2 text-left">
     <h1>Chris Taylor</h1>
     </div>
 
-    <div class="col-sm-1 col-sm-offset-9 text-center">
+    <div class="col-sm-1 col-sm-offset-1">
      <a href="#"><h4>About</h4></a>
     </div>
-    <div class="col-sm-1 col-sm-offset-10 text-center">
+    <div class="col-sm-1">
      <a href="#"><h4>Portfolio</h4></a>
     </div>
-    <div class="col-sm-1 col-sm-offset-11 text-center">
+    <div class="col-sm-1">
      <a href="#"><h4>Contact</h4></a>
     </div>
   </div>
@@ -80,13 +79,17 @@
       <div class="col-sm-6 text-left">
         <a href="#"><img class="smaller-image" src="12194681_10208246169180680_7025250525193077091_o (1).jpg"></a>
       </div>
+      <div class="col-sm-6 text-center">
+        <p>Hello, my name is Chris. Welcome to my portfolio page! This is currently a work in progress as I make my way through FreeCodeCamp and learn web development. Please make sure to check back periodically to learn more about me and see my progress.</p>
+      </div>
     </div>
 
     </div>
 
   </div>
 
-  <div class="container test">
+  <div class="container">
+    <h2>Contact Me.</h2>
     <div class="row">
       <div class="col-sm-6 text-center">
         <input class="form-control" type="text" placeholder="Name" required>
@@ -94,9 +97,7 @@
         <input class="form-control" type="text" placeholder="Phone Number">
         <input class="form-control" type="text" placeholder="Message" required>
       </div>
-      <div class="col-sm-6 text-center">
-        <p>Hello, my name is Chris. Welcome to my portfolio page! This is currently a work in progress as I make my way through FreeCodeCamp and learn web development. Please make sure to check back periodically to learn more about me and see my progress.</p>
-      </div>
+
     </div>
   </div>
 
